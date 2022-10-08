@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.d6a93912.js",
-    "static/js/787.117e435c.chunk.js": "/static/js/787.117e435c.chunk.js",
-    "index.html": "/index.html",
-    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.d6a93912.js.map": "/static/js/main.d6a93912.js.map",
-    "787.117e435c.chunk.js.map": "/static/js/787.117e435c.chunk.js.map"
+    "main.css": "/benkyo-react/static/css/main.e6c13ad2.css",
+    "main.js": "/benkyo-react/static/js/main.7162091a.js",
+    "static/js/787.117e435c.chunk.js": "/benkyo-react/static/js/787.117e435c.chunk.js",
+    "index.html": "/benkyo-react/index.html",
+    "main.e6c13ad2.css.map": "/benkyo-react/static/css/main.e6c13ad2.css.map",
+    "main.7162091a.js.map": "/benkyo-react/static/js/main.7162091a.js.map",
+    "787.117e435c.chunk.js.map": "/benkyo-react/static/js/787.117e435c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.d6a93912.js"
+    "static/js/main.7162091a.js"
   ]
 }
