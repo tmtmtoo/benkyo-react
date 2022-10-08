@@ -6,7 +6,7 @@ import { AboutPage } from "./pages/About";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path={"/"} element={<TopPage />} />
         <Route path={"/about"} element={<AboutPage />} />
