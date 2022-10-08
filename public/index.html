@@ -25,6 +25,14 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <!-- ref: https://www.i-ryo.com/entry/2021/02/28/174841 -->
+    <script>
+      const path = sessionStorage.getItem('path');
+      if (path) {
+        sessionStorage.removeItem('path');
+        window.history.replaceState(null, null, path);
+      }
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
