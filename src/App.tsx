@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
-import { TopPage } from "./pages/Top";
-import { AboutPage } from "./pages/About";
+import { TopPage } from "./components/pages/Top";
+import { AboutPage } from "./components/pages/About";
 
 const App = () => {
   return (
