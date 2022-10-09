@@ -39,3 +39,14 @@ Link.args = {
 - [Anchor](http://example.com)
 `,
 };
+
+export const Code = Template.bind({});
+Code.args = {
+  content: `
+\`\`\`ts
+function bar<T>(t: T): T {
+  return t
+}
+\`\`\`
+`,
+};
