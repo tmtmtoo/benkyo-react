@@ -40,6 +40,7 @@ export const Markdown = (props: { content: string }) => (
             PreTag="div"
             language={match[1]}
             children={String(children).replace(/\n$/, "")}
+            showLineNumbers={true}
             {...props}
           />
         ) : (
