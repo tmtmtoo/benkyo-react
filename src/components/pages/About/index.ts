@@ -1,1 +1,1 @@
-export { AboutPage } from "./About.page"
+export { About } from "./About"

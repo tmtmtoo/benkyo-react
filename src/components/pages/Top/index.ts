@@ -1,1 +1,1 @@
-export {TopPage} from "./TopPage"
+export {Top} from "./Top"
