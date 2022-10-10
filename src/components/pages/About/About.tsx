@@ -11,6 +11,6 @@ React を勉強している人の備忘録です。
 
 export const About = () => (
   <Page>
-    <Markdown content={CONTENT}></Markdown>
+    <Markdown content={CONTENT} />
   </Page>
 );

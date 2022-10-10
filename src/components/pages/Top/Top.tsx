@@ -9,6 +9,6 @@ const CONTENT = `
 
 export const Top = () => (
   <Page>
-    <Markdown content={CONTENT}></Markdown>
+    <Markdown content={CONTENT} />
   </Page>
 );
