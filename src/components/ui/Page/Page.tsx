@@ -20,7 +20,7 @@ const GithubImage = styled.img`
 
 const HeaderContainer = styled.header`
   width: 100%;
-  background-color: #505050;
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1);
 `;
 
 const Header = () => (
@@ -45,7 +45,7 @@ const Main = styled.main`
 const PageContainer = styled.div`
   display: flex;
   flex-flow: column;
-  background-color: #f0f0f0;
+  background-color: #eeeeee;
   min-height: 100vh;
 `;
 
