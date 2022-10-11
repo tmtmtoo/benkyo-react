@@ -6,7 +6,7 @@ const CONTENT = `
 
 [このページについて](/about)
 
-- 20221011 [Markdown で記事を書くようにした](/article/20221011)
+- 20221011 [Markdown で記事を書くようにした](/articles/20221011)
 `;
 
 export const Top = () => (

@@ -12,10 +12,10 @@ const App = () => {
       <Routes>
         <Route path={"/"} element={<Top />} />
         <Route path={"/about"} element={<About />} />
-        <Route
-          path={"/article/20221011"}
-          element={<Article content={MD20221011} />}
-        />
+        <Route path={"/articles"}>
+          <Route index element={<div>Forbidden</div>} />
+          <Route path={"20221011"} element={<Article content={MD20221011} />} />
+        </Route>
         <Route path="*" element={<div>Not Found</div>} />
       </Routes>
     </BrowserRouter>
