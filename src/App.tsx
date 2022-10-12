@@ -6,6 +6,8 @@ import { Article } from "./components/pages/Article";
 import { Error } from "./components/pages/Error";
 // @ts-expect-error
 import MD20221011 from "./articles/20221011.md";
+// @ts-expect-error
+import MD20221012 from "./articles/20221012.md";
 
 const App = () => {
   return (
@@ -13,6 +15,7 @@ const App = () => {
       <Routes>
         <Route path={"/"} element={<Top />} />
         <Route path={"/about"} element={<About />} />
+        <Route path={"20221012"} element={<Article content={MD20221012} />} />
         <Route path={"20221011"} element={<Article content={MD20221011} />} />
         <Route path="*" element={<Error message="Not Found" />} />
       </Routes>
