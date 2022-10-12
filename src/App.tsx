@@ -13,10 +13,7 @@ const App = () => {
       <Routes>
         <Route path={"/"} element={<Top />} />
         <Route path={"/about"} element={<About />} />
-        <Route path={"/articles"}>
-          <Route index element={<Error message="Forbidden" />} />
-          <Route path={"20221011"} element={<Article content={MD20221011} />} />
-        </Route>
+        <Route path={"20221011"} element={<Article content={MD20221011} />} />
         <Route path="*" element={<Error message="Not Found" />} />
       </Routes>
     </BrowserRouter>

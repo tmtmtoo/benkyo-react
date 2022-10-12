@@ -5,12 +5,10 @@ const CONTENT = `
 ## このページについて
 
 React を勉強している人の備忘録です。
-
-[戻る](/)
 `;
 
 export const About = () => (
-  <Page>
+  <Page showFooter>
     <Markdown content={CONTENT} />
   </Page>
 );
