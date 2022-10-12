@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/benkyo-react/static/css/main.e6c13ad2.css",
-    "main.js": "/benkyo-react/static/js/main.55a71e99.js",
+    "main.js": "/benkyo-react/static/js/main.6223f248.js",
     "static/js/529.988cd4b4.chunk.js": "/benkyo-react/static/js/529.988cd4b4.chunk.js",
     "static/media/logo.png": "/benkyo-react/static/media/logo.8b5e07c5dfb6bb427e5a.png",
     "index.html": "/benkyo-react/index.html",
     "main.e6c13ad2.css.map": "/benkyo-react/static/css/main.e6c13ad2.css.map",
-    "main.55a71e99.js.map": "/benkyo-react/static/js/main.55a71e99.js.map",
+    "main.6223f248.js.map": "/benkyo-react/static/js/main.6223f248.js.map",
     "529.988cd4b4.chunk.js.map": "/benkyo-react/static/js/529.988cd4b4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.55a71e99.js"
+    "static/js/main.6223f248.js"
   ]
 }
