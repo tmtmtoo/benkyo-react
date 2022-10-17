@@ -19,7 +19,7 @@ export const useCounterMutator = () => {
 
   const updateCounter = useCallback(() => {
     setState({ value: counter.value + 1 });
-  }, [counter.value]);
+  }, [setState, counter.value]);
 
   return updateCounter;
 };
