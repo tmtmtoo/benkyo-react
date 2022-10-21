@@ -7,10 +7,13 @@ import { Error } from "./components/pages/Error";
 import { ExampleGlobalStates } from "./components/pages/ExampleGlobalStates";
 import { RecoilRoot } from "recoil";
 import { StrictMode } from "react";
+
 // @ts-expect-error
 import MD20221011 from "./articles/20221011.md";
 // @ts-expect-error
 import MD20221012 from "./articles/20221012.md";
+// @ts-expect-error
+import MD20221021 from "./articles/20221021.md";
 
 const App = () => {
   return (
@@ -18,20 +21,23 @@ const App = () => {
       <RecoilRoot>
         <BrowserRouter basename={process.env.PUBLIC_URL}>
           <Routes>
-            <Route path={"/"} element={<Top />} />
-            <Route path={"/about"} element={<About />} />
+            <Route path="/" element={<Top />} />
+            <Route path="/about" element={<About />} />
             <Route
-              path={"20221012"}
+              path="/20221012"
               element={<Article content={MD20221012} />}
             />
             <Route
-              path={"20221011"}
+              path="/20221011"
               element={<Article content={MD20221011} />}
             />
-            <Route
-              path="/example-global-states"
-              element={<ExampleGlobalStates />}
-            />
+            <Route path="/20221021">
+              <Route index element={<Article content={MD20221021} />} />
+              <Route
+                path="example-global-states"
+                element={<ExampleGlobalStates />}
+              />
+            </Route>
             <Route path="*" element={<Error message="Not Found" />} />
           </Routes>
         </BrowserRouter>
